@@ -1,0 +1,9 @@
+<div>
+  <h1>Beers</h1>
+  <div ng-if="error">{{error}}</div>
+  <ul ng-show="beers.size()!=0">
+    <li ng-repeat="beer in beers">name : {{beer.name}} - Alcohol : {{beer.alcohol}}</li>
+  </ul>
+  <p ng-show="beers.size()==0">Aucune bière de disponible. </p>
+
+</div>

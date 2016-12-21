@@ -1,0 +1,10 @@
+<div>
+  <h1>Add Beers Form</h1>
+  <div ng-if="msg">{{msg}}</div>
+
+<form  ng-submit="submit()">
+  <input type="text" ng-model="name" name="text" placeholder="Name"/>
+  <input type="text" ng-model="alcohol" name="text" placeholder="Alcohol"/>
+  <input type="submit" id="submit" value="Submit" />
+</form>
+</div>
